@@ -9,10 +9,6 @@
   margin: 0 auto;
 }
 
-body {
-  background-color: #ECEFF1
-}
-
 /*Header*/
 
 header {
@@ -66,6 +62,40 @@ header {
 .mv-text {
   font-size: 20px;
   padding-top: 10px;
+}
+
+#portfolio {
+  background-color: #ECEFF1;
+}
+
+.port-heading {
+  text-align: center;
+  padding-top: 90px;
+  width: 920px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.port-text {
+  width: 920px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.portimg-group{
+  width: 920px;
+  display: flex;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.portimg-1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.portimg-2 {
+  background-image: url(img/websuku.png);
 }
 
 /*Footer*/
