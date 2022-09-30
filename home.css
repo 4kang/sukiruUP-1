@@ -76,6 +76,15 @@ header {
   color: #000000;
 }
 
+.port-heading::after{
+ content: "";
+ display: block;
+ width: 70px;
+ height: 3px;
+ margin: 8px auto 0 auto;
+ background-color: #EC715F;
+}
+
 .port-text {
   width: 920px;
   padding-top: 30px;
@@ -83,19 +92,52 @@ header {
   font-size: 16px;
 }
 
-.portimg-group{
+.production-group{
   width: 920px;
   display: flex;
+  flex-flow : row wrap;
   padding: 30px 0 90px 0;
   margin: 0 auto;
 }
 
-.portimg-1 {
+.production{
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0; /* 上 | 右 | 下 | 左 */
+  background-position: center;
+  background-size: cover;
+}
+
+.production:nth-child(-n+3){
+  margin-top: 0;
+}
+
+.production:nth-child(3n){
+  margin-right: 0;
+}
+
+.bg-1 {
   background-image: url(img/sketch.jpg);
 }
 
-.portimg-2 {
+.bg-2 {
   background-image: url(img/websuku.png);
+}
+
+.bg-3 {
+  background-image: url(img/write.jpg);
+}
+
+.bg-4 {
+  background-image: url(img/webcamp.png);
+}
+
+.bg-5 {
+  background-image: url(img/talk.jpg);
+}
+
+.bg-6 {
+  background-image: url(img/webcamp-mother.png);
 }
 
 /*Footer*/
