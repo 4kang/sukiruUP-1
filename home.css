@@ -64,6 +64,8 @@ header {
   padding-top: 10px;
 }
 
+/*Portfolio*/
+
 #portfolio {
   background-color: #ECEFF1;
 }
@@ -138,6 +140,30 @@ header {
 
 .bg-6 {
   background-image: url(img/webcamp-mother.png);
+}
+
+/*Feature*/
+
+.fea-heading {
+  width: 980px;
+  padding-top: 90px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.fea-heading::after{
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
+.fea-text {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 30px;
 }
 
 /*Footer*/
