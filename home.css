@@ -145,7 +145,6 @@ header {
 /*Feature*/
 
 .fea-heading {
-  width: 980px;
   padding-top: 90px;
   font-size: 32px;
   text-align: center;
@@ -163,6 +162,11 @@ header {
 .fea-text {
   text-align: center;
   font-size: 16px;
+  padding-top: 30px;
+}
+
+.strength-group {
+  width: 980px;
   padding-top: 30px;
 }
 
