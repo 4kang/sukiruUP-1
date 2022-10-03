@@ -70,7 +70,7 @@ header {
   background-color: #ECEFF1;
 }
 
-.port-heading {
+.heading {
   text-align: center;
   padding-top: 90px;
   width: 920px;
@@ -78,7 +78,7 @@ header {
   color: #000000;
 }
 
-.port-heading::after{
+.heading::after{
  content: "";
  display: block;
  width: 70px;
@@ -87,7 +87,7 @@ header {
  background-color: #EC715F;
 }
 
-.port-text {
+.heading-text {
   width: 920px;
   padding-top: 30px;
   text-align: center;
@@ -144,25 +144,19 @@ header {
 
 /*Feature*/
 
-.fea-heading {
-  padding-top: 90px;
-  font-size: 32px;
+.feaheading {
   text-align: center;
+  padding-top: 90px;
+  width: 920px;
+  font-size: 32px;
+  color: #000000;
 }
 
-.fea-heading::after{
-  content: "";
-  display: block;
-  width: 70px;
-  height: 3px;
-  margin: 8px auto 0 auto;
-  background-color: #EC715F;
-}
-
-.fea-text {
+.feaheading-text {
+  width: 920px;
+  padding-top: 30px;
   text-align: center;
   font-size: 16px;
-  padding-top: 30px;
 }
 
 .strength-group {
@@ -187,6 +181,11 @@ header {
 .strength-text{
   text-align: left;
   font-size: 16px;
+}
+
+/*Profile*/
+#profile {
+  background-color: #ECEFF1;
 }
 
 /*Footer*/
