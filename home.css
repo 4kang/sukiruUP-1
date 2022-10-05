@@ -52,6 +52,8 @@ header {
   text-align: center;
   color: #FAFAFA;
   background-image: url(img/mv.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .mv-title {
@@ -73,9 +75,8 @@ header {
 .heading {
   text-align: center;
   padding-top: 90px;
-  width: 920px;
   font-size: 32px;
-  color: #000000;
+  font-family: 'Raleway', sans-serif;
 }
 
 .heading::after{
@@ -88,7 +89,6 @@ header {
 }
 
 .heading-text {
-  width: 920px;
   padding-top: 30px;
   text-align: center;
   font-size: 16px;
@@ -147,13 +147,11 @@ header {
 .feaheading {
   text-align: center;
   padding-top: 90px;
-  width: 920px;
   font-size: 32px;
   color: #000000;
 }
 
 .feaheading-text {
-  width: 920px;
   padding-top: 30px;
   text-align: center;
   font-size: 16px;
@@ -183,9 +181,59 @@ header {
   font-size: 16px;
 }
 
+.profile-group {
+  display: flex;
+  padding: 30px 0 90px 0;
+
+}
+
+.profile-left {
+  width: 50%;
+}
+
+.icon {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%; /*要素の境界の外側の角を丸める*/
+  background-image: url(img/my-icon.jpg);
+}
+
+.profile-right {
+  width: 50%;
+}
+
+.profile-title {
+  margin: 20px 0 5px 0;
+}
+
+.profile-text {
+  font-size: 16px;
+}
+
 /*Profile*/
 #profile {
   background-color: #ECEFF1;
+}
+
+/*Contact*/
+.contact-group {
+  display: flex;
+  padding: 30px 0 90px 0;
+}
+
+.contact-left {
+  width: 50%;
+}
+
+.content-contact-left {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  font-size: 20px;
+  margin: 20px 0 5px 0;
 }
 
 /*Footer*/
