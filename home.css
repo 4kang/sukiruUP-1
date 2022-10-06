@@ -236,6 +236,25 @@ header {
   margin: 20px 0 5px 0;
 }
 
+.contact-right {
+  width: 50%;
+}
+
+.fa-facebook-f {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.fa-twitter {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.fa-instagram {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
 /*Footer*/
 footer {
   width: 100%;
